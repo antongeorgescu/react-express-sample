@@ -1,5 +1,7 @@
 var express = require('express');
 var router = express.Router();
+var cors = require('cors');
+router.use(cors());
 
 const myteam = ['Anton','Daniela','Virgil','Court','Alex','Emme'];
 
